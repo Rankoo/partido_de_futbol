@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { ArqueroComponent } from '../components/arquero/arquero.component';
 
 @Component({
-  selector: 'app-root',
+  selector: 'tecnico',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, ArqueroComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
